@@ -2,7 +2,7 @@ import cv2
 import numpy as np
  
 count =0
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture()
 
 print(" Press c to acess camera")
 c = input()
@@ -13,7 +13,7 @@ if c == 'c':
 while True:
    count +=1
    ret , frame = cap.read()
-   img = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+   img = cv2.cvtColor(frame, cv.COLOR_BGR2HSV)
    
    lower_range = np.array([0,10,200])
    upper_range = np.array([50,88,226])
