@@ -1,6 +1,6 @@
 # Detecting-fire-using-OpenCV
  Image processing using OpenCV
- Approach to the problem:
+ I approached to the problem as follows:
 
 Source code:
 1) Used libraries - cv, numpy.
